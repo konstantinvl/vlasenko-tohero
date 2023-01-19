@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+:root {
+  --ending-element-height: 50px;
+  --background-gradient: linear-gradient(to right top, #0faecf, #02b5c9, #1ebbc1, #39c1b8, #53c6ad);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f2f7da;
+  font-family: 'Roboto', sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: var(--background-gradient);
+  position: relative;
+}
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.layout-container {
+  width: 100%;
+  max-width: 1200px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Hero</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="layout-container header glassmorphism">
+        <nav class="burger-menu">
+          <div class="burger-menu__back closed"></div>
+          <div class="burger-menu__control"></div>
+          <ul class="tainted-glass burger-menu__menu closed">
+            <li class="burger-menu__menu__line tainted-glass">!!!</li>
+            <li class="burger-menu__menu__line tainted-glass">this</li>
+            <li class="burger-menu__menu__line tainted-glass">is</li>
+            <li class="burger-menu__menu__line tainted-glass">burger</li>
+            <li class="burger-menu__menu__line tainted-glass">menu</li>
+            <li class="burger-menu__menu__line tainted-glass">!!!</li>
+            <li class="burger-menu__menu__line tainted-glass">!!!</li>
+          </ul>
+        </nav>
+      </header>
+      <main class="layout-container main">
+        <aside class="hero glassmorphism">
+          <div class="hero__photo">
+            <img src="./assets/photo.jpg" alt="photo" class="hero__photo-image" />
+          </div>
+          <h2 class="hero__name">Konstantin Vlasenko</h2>
+
+          <h6 class="hero__info">Minsk, Belarus</h6>
+          <h6 class="hero__info">
+            <a href="mailto:konstantinvl@inbox.ru">konstantinvl@inbox.ru</a>
+          </h6>
+
+          <h6 class="hero__info">
+            <a href="https://telegram.me/knstntn_vl">telegram: @knstntn_vl</a>
+          </h6>
+        </aside>
+        <section class="info glassmorphism">
+          <article class="info__article">
+            <h3 class="info__article__title">Education</h3>
+            <ul class="info__article__list">
+              <li class="info__article__list__field">
+                <h4 class="info__article__list__field__title">ITransition Lab</h4>
+                <span class="info__article__list__field__text"
+                  >Online courses, May 2022 – June 2022
+                </span>
+              </li>
+              <li class="info__article__list__field">
+                <h4 class="info__article__list__field__title">ITRex Group React JS Lab</h4>
+                <span class="info__article__list__field__text"
+                  >Online courses, October 2021 – December 2021
+                </span>
+              </li>
+              <li class="info__article__list__field">
+                <h4 class="info__article__list__field__title">
+                  RS School JAVASCRIPT/FRONT-END 2021Q1
+                </h4>
+                <span class="info__article__list__field__text"
+                  >Online courses, March 2021 – July 2021
+                </span>
+              </li>
+              <li class="info__article__list__field">
+                <h4 class="info__article__list__field__title">
+                  Belarusian National Technical University
+                </h4>
+                <span class="info__article__list__field__text"
+                  >Bachelor degree, September 2011 – July 2016</span
+                >
+              </li>
+            </ul>
+          </article>
+        </section>
+        <section class="info hobbies glassmorphism">
+          <article class="info__article">
+            <h3 class="info__article__title">Hobbies</h3>
+            <div class="hobbies__slider">
+              <div class="hobbies__slider__control__left" id="left"></div>
+
+              <div class="hobbies__slider__wrapper glassmorphism">
+                <div class="hobbies__slider__main">
+                  <div class="hobbies__slider__main__card">
+                    <img
+                      src="./assets/snowboarding-review.jpg"
+                      alt="snowboarding"
+                      class="hobbies__slider__main__card__image"
+                    />
+                    <div class="hobbies__slider__main__card__title">Snowboarding</div>
+                  </div>
+
+                  <div class="hobbies__slider__main__card">
+                    <img
+                      src="./assets/boardgame.jpg"
+                      alt="boardgames"
+                      class="hobbies__slider__main__card__image"
+                    />
+                    <div class="hobbies__slider__main__card__title">Board games</div>
+                  </div>
+
+                  <div class="hobbies__slider__main__card">
+                    <img
+                      src="./assets/snowboarding-review.jpg"
+                      alt="snowboarding"
+                      class="hobbies__slider__main__card__image"
+                    />
+                    <div class="hobbies__slider__main__card__title">Snowboarding</div>
+                  </div>
+
+                  <div class="hobbies__slider__main__card">
+                    <img
+                      src="./assets/boardgame.jpg"
+                      alt="boardgames"
+                      class="hobbies__slider__main__card__image"
+                    />
+                    <div class="hobbies__slider__main__card__title">Board games</div>
+                  </div>
+                </div>
+              </div>
+              <div class="hobbies__slider__control__right" id="right"></div>
+            </div>
+          </article>
+        </section>
+      </main>
+      <footer class="layout-container footer glassmorphism"></footer>
+    </div>
+  </body>
+  <script src="./slider.js"></script>
+  <script src="./menu.js"></script>
+</html>
